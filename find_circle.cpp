@@ -1,5 +1,5 @@
 #include <iostream>
-#include "vector"
+#include <vector>
 
 bool flag = false;
 int start, end;
@@ -39,8 +39,8 @@ int main() {
         if (!ind[i]) {
             dfs(i, 0, graph, ind, road);
         }
-
     }
+    
     if (flag) {
         std::cout << "YES" << std::endl;
 
@@ -56,8 +56,9 @@ int main() {
         std::reverse(cycle.begin(), cycle.end());
         std::cout << cycle.size() << std::endl;
 
-        for (int i = 0; i < cycle.size(); ++i)
-            std::cout << cycle[i] << " ";
+        for (auto it : cycle) {
+            std::cout << it << " ";
+        }
     } else {
         std::cout << "NO";
     }
