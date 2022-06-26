@@ -7,5 +7,6 @@ This repository constains realization of some base algorithms
   4. Find articulation points (поиск точек сочленения)
   5. Condensation graph (конденсация графа)
 # BFS (Breadth-first search):
-  1.
+  1. Find min path (длина кратчайшего пути) + восстановление пути
+  2. 
   
