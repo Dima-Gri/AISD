@@ -2,7 +2,7 @@
 #include "vector"
 
 std::vector<size_t> topology;
-bool is_exist = false;
+bool not_exist = false;
 
 enum class Flag {
     Unused,
@@ -14,7 +14,7 @@ void dfs(size_t now, size_t parent, std::vector<std::vector<int>> &graph, std::v
     used[now] = Flag::Process;
     for (const auto &neigh: graph[now]) {
         if (used[neigh] == Flag::Process && neigh != parent) {
-            is_exist = true;
+            not_exist = true;
         } else if (used[neigh] == Flag::Unused) {
             dfs(neigh, now, graph, used);
         }
@@ -44,7 +44,7 @@ int main() {
 
     std::reverse(topology.begin(), topology.end());
 
-    if (!is_exist) {
+    if (!not_exist) {
         for (const auto &it: topology) {
             std::cout << it << " ";
         }
