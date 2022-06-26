@@ -53,7 +53,7 @@ int main() {
 
     std::cout << bridges.size() << std::endl;
     std::sort(bridges.begin(), bridges.end());
-    for (auto &it: bridges) {
+    for (const auto &it: bridges) {
         std::cout << it << " ";
     }
 
