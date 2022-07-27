@@ -1,5 +1,5 @@
 # AISD
-This repository constains realization of some base algorithms
+This repository constains realization of some base algorithms and data structeres
 # DFS (Depth-first search):
   1. Find cycle (поиск цикла)
   2. Topology sort (топологическая сортировка)
