@@ -8,5 +8,7 @@ This repository constains realization of some base algorithms
   5. Condensation graph (конденсация графа)
 # BFS (Breadth-first search):
   1. Find min path (длина кратчайшего пути) + восстановление пути
-  2. 
+ # Dijkstra's algorithm:
+  1. Dijkstra's algorithm (реализация алгоритма дейкстры с помощью вектора)
+  2. Fast Dijkstra's algorithm (реализация алгоритма дейкстры с помощью множества)
   
