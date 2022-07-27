@@ -13,4 +13,6 @@ This repository constains realization of some base algorithms and data structere
   2. Fast Dijkstra's algorithm (реализация алгоритма дейкстры с помощью множества)
  # Bellman-Ford's algorithm
   1. Solution task by Bellman-Ford's algorithm
+ # Floyd–Warshall's algorithm
+  1. Floyd–Warshall's algorithm
   
