@@ -11,4 +11,6 @@ This repository constains realization of some base algorithms and data structere
  # Dijkstra's algorithm:
   1. Dijkstra's algorithm (реализация алгоритма дейкстры с помощью вектора)
   2. Fast Dijkstra's algorithm (реализация алгоритма дейкстры с помощью множества)
+ # Bellman-Ford's algorithm
+  1. Solve task by Bellman-Ford's algorithm
   
