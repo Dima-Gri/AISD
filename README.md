@@ -18,10 +18,10 @@ This repository constains realization of some base algorithms and data structere
 # Минимальное остовное дерево(система непересекающихся множеств)
   1. Алгоритм Крускала
   2. Алгоритм Прима
-# Двоичное дерево поиска
-  1. Реализация двоичного дерева поиска
-# Декартово дерево
-  1. Реализация декартового дерева
-# Дерево отрезков
-  1. Реализация дерева отрезков
+# Binary search tree
+  1. Realization of struct BST
+# Segment Tree(Дерево отрезков)
+  1. Realization segment tree
+# Treap(дерево отрезков)
+  1. Realization Treap
 
