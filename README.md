@@ -1,5 +1,5 @@
 # AISD
-This repository constains realization of some base algorithms and data structeres
+This repository constains realization of some basic algorithms and data structeres
 # DFS (Depth-first search):
   1. Find cycle (поиск цикла)
   2. Topology sort (топологическая сортировка)
@@ -18,10 +18,10 @@ This repository constains realization of some base algorithms and data structere
 # Минимальное остовное дерево(система непересекающихся множеств)
   1. Алгоритм Крускала
   2. Алгоритм Прима
-# Binary search tree
+# Binary search tree (Двоичное дерево поиска)
   1. Realization of struct BST
-# Segment Tree(Дерево отрезков)
+# Segment Tree (Дерево отрезков)
   1. Realization segment tree
-# Treap(дерево отрезков)
+# Treap (Декартово дерево)
   1. Realization Treap
 
