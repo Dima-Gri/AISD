@@ -16,4 +16,12 @@ This repository constains realization of some base algorithms and data structere
 # Floyd–Warshall's algorithm
   1. Floyd–Warshall's algorithm
 # Минимальное остовное дерево(система непересекающихся множеств)
-  
+  1. Алгоритм Крускала
+  2. Алгоритм Прима
+# Двоичное дерево поиска
+  1. Реализация двоичного дерева поиска
+# Декартово дерево
+  1. Реализация декартового дерева
+# Дерево отрезков
+  1. Реализация дерева отрезков
+
